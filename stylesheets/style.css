@@ -1,0 +1,9 @@
+@font-face {
+  font-family: BerkeleyMono;
+  src: url("../../hmadej/fonts/BerkeleyMono-Regular.woff") format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  font-family: BerkeleyMono;
+}
