@@ -10,13 +10,6 @@
         padding: 0;
         min-height:100%
       }
-      #root {
-          flex-shrink: 0;
-          flex-basis: auto;
-          flex-grow: 1;
-          display: flex;
-          flex:1
-      }
       html {
         font-family: BerkeleyMono, monospace;
         color: #222;
@@ -34,11 +27,9 @@
           -moz-osx-font-smoothing: grayscale;
           -ms-overflow-style:scrollbar
       }
-      h1, h2 {
+      h1, h2, h3 {
         color: #333;
-      }
-      h2 {
-        margin-top: 3rem;
+        margin-bottom: 0rem;
       }
       body {
         margin: 2rem;
@@ -67,10 +58,6 @@
           margin: 1rem;
         }
       }
-      .colorParagraph code.color {
-        padding: 0em 0.2em;
-        font-weight: bold;
-      }
       @font-face {
         font-family: BerkeleyMono;
         src: url("/fonts/BerkeleyMono-Regular.woff") format('woff');
@@ -86,13 +73,7 @@
     </style>
   </head>
   <body>
-    <h1>Hello World.</h1>
-    <p>I am henry, this is my website</p>
-    <h1>Bonjour le Monde.</h1>
-    <p>Je suis henry, c'est mon site web</p>
+    <h1>Hello World. Bonjour le Monde.</h1>
+    <p>Je suis henry, c'est mon site web. <br>I am henry, this is my website.</br></p>
   </body>
-  <footer>
-    <p>typeface available <a href="https://berkeleygraphics.com/typefaces/">here.</a></p>
-    <p>police de caractère disponible <a href="https://berkeleygraphics.com/typefaces/">ici.</a></p>
-  </footer>
 </html>
